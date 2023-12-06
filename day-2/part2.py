@@ -43,10 +43,8 @@ with open('input.txt') as f:
                     min_blue = int(cubes[i])
         
         if (possible):
-            #print(f'Game {gamenum} is possible')
             sum += int(gamenum)
-        #else:
-            #print(f'Game {gamenum} is impossible')
+            
         power_of_mins = min_red * min_green * min_blue
         sum_of_powers += power_of_mins
 
