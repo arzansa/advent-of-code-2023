@@ -1,0 +1,2 @@
+def getSymbols(txt):
+    
